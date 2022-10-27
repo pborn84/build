@@ -136,27 +136,28 @@ header{width: 100%; height: 30%; margin: 0 auto; overflow: hidden;}
 header img{width: 20%;padding: 1% 10% 1% 8%;float: left;display: block;}
 header nav{width: 100%;margin-top: 4%;margin-left: 6%;float: left;display: block;margin-bottom: 5%;font-size: 1.4vw;}
 header nav ul li{margin: 0 auto; display: inline-block;}
-header nav ul li a{margin: 0 auto; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; font-size: .9em; text-align:center;}
+header nav ul li a{margin: 0 auto; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; font-size: .9vw; text-align:center;}
 
 label{margin: 0 500px 0 0; font-size: 26px; line-height: 70px; display: none;}
 label{margin: 0 500px 0 0; font-size: 26px; line-height: 70px; display: none;}
 #toogle{display: none;}
 
-.menu a {cursor: pointer; text-decoration: none; color: #ccc; margin: 0 40px; -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */ transition: color 1s; /* For modern browsers */}
-.menu a:link {font-weight: 700; cursor: pointer; text-decoration: none; margin: 0 40px; color: #ccc;}
-.menu a:hover {font-weight: 700; text-decoration: none; color: #161f2d; margin: 0 40px; border-bottom: 3px #878a8f solid;}
+.menu a {cursor: pointer; text-decoration: none; color: #ccc; margin: 0 40px;font-size: 1.4vw; -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */ transition: color 1s; /* For modern browsers */}
+.menu a:link {font-weight: 700;cursor: pointer;text-decoration: none;margin: 0 34px;color: #ccc;font-size: 1.4vw;}
+.menu a:hover {font-weight: 700; text-decoration: none; color: #161f2d; margin: 0 40px; border-bottom: 3px #878a8f solid;font-size: 1.4vw;}
+
 
 /*HOME*/
 article.home{width: 100%; margin: 0 auto; padding: 0 auto; display: block; float: left; overflow-x: hidden;}
 article.home img{width: 100%; margin: 0 auto; display: block; float: left; position: absolute; z-index: -1; overflow-x: hidden;}					
 article.home section{margin-top: 420px; margin-left: 280px; display: block; float: left; overflow-x: hidden;}
-article.home section h1{margin: 0; margin-left: 10px; padding-top: 38px; font-size: 2em; text-align: center; overflow-x: hidden;}
+article.home section h1{margin: 0; margin-left: 10px; padding-top: 38px; font-size: 2vw; text-align: center; overflow-x: hidden;}
 
 /*Intro*/
 article.intro{width: 100%; margin: 0 auto; display: block; float: left; overflow: hidden;}
 article.intro div.telefone{width: 100%; margin: 0 auto; display: block; float: left; overflow: hidden;}
 article.intro div.telefone img.cel{width: 5%;margin: 0% 68%;/* FONT-WEIGHT: 500; */float: left;overflow: hidden;/* bottom: 39px; */}
-article.intro div.telefone h2.number{width: 178%;margin: -4% -3%;display: block;float: left;overflow: hidden;font-size: 2.8vw;line-height: 1em;color: cornsilk;font-family: monospace;}
+article.intro div.telefone h2.number{width: 178%; margin: -4% -3%; display: block; float: left; overflow: hidden; font-size: 2.8vw; line-height: 2vw;color: cornsilk;font-family: monospace;}
 article.intro div.bloco{width: 100%; margin: 0 auto; padding: 0 auto; display: block; float: left; overflow-x: hidden;}
 article.intro div.bloco img.logo{width: 28%;margin: 0 auto;padding: 0 auto;display: block;float: center;overflow-x: hidden;}
 
@@ -173,19 +174,19 @@ article.intro div.bloco img.logo{width: 28%;margin: 0 auto;padding: 0 auto;displ
 #bubblecontent .img img {width: 110%; margin-left: -100px; overflow-x: hidden;}
 
 /*TITLE, SUBTITLE AND IMG*/
-article h2{font-size: 2.3em; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%;}
-article h3{font-size: 1em; color: #16171A; text-align: center; letter-spacing: -2px; overflow: hidden; padding-bottom: 2%;}
-article p{width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1em; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%;}
+article h3{font-size: 1vw; color: #16171A; text-align: center; letter-spacing: -2px; overflow: hidden; padding-bottom: 2%;}
+article p{width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
 article img{width: 20%; margin: 0 auto; padding-top: 0%; display: block;}
  
 /*Serviço*/
 article.service{width: 100%;height: auto;margin: 0 auto;padding-top: 20%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
-article.service h2{font-size: 2.3em;text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
+article.service h2{font-size: 2.3vw;text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
 article.service ul.servico{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: flex;}
 article.service ul.servico li a {width: 100%; margin: 0px auto 5%; display: block; text-decoration: none;}
 article.service ul.servico li a img.icon-serv{width: 30px; margin: 0px auto 30px; text-align: left; display: block;}
-article.service ul.servico li a h3.icon-title{width: 100%; height: 20px; margin: 0 auto; font-size: 1em; font-weight: 800; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: auto;}
-article.service ul.servico li a p.txt-descricao{width: 73%; height: 100px; margin: 0 auto; font-size: 0.8em; font-weight: 400; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: 16px;}
+article.service ul.servico li a h3.icon-title{width: 100%; height: 20px; margin: 0 auto; font-size: 1vw; font-weight: 800; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: auto;}
+article.service ul.servico li a p.txt-descricao{width: 73%; height: 100px; margin: 0 auto; font-size: 0.8vw; font-weight: 400; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: 16px;}
 
 
 /*PORTIFOLIO*/
@@ -202,38 +203,38 @@ article.portifolio #close{top:0; right: 2%;}
 article.portifolio .box_img img{opacity: 0;}
 article.portifolio .lbox:target .box_img img{opacity: 1; transition: opacity .4s linear;}
 article.portifolio ul li{width:20%; height: 100px; margin: 0 0 2% 3%; display:block; text-decoration: none;}
-article.portifolio h2{font-size: 2.3em; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%; overflow: hidden; color: #636363; padding-top: 5%;}
+article.portifolio h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%; overflow: hidden; color: #636363; padding-top: 5%;}
 article.portifolio ul li a{text-decoration: none; padding-bottom: 30%;}
 article.portifolio ul li a img {width: 114%; height: 33%; margin: 0 0 2% 6%; border: 2px solid #bbbabc; border-radius: 2px;display: block; text-decoration: none; text-decoration: none; /*! padding-bottom: 7%; */display: block; box-shadow: 3px 4px 10px rgba(0,0,0,0.2);}
-article.portifolio ul li a p{width: 85%; margin-top: 6%; padding-top: 10%; padding-bottom: 10%; text-align: center; font-size: 1em; color: rgba(0,0,0,0); font-weight: 600; text-decoration: none; letter-spacing: 1px;}
+article.portifolio ul li a p{width: 85%; margin-top: 6%; padding-top: 10%; padding-bottom: 10%; text-align: center; font-size: 1vw; color: rgba(0,0,0,0); font-weight: 600; text-decoration: none; letter-spacing: 1px;}
 article.portifolio div div div#ultrabox{width: 90%; height: 530px; margin-top: -90px;padding-top: 34px; background: rgba(10,10,10,.9); position: relative; display: block;}
 article.portifolio div div div#ultrabox section.picture{width: 50%; height: 200px; margin-top: 100px; margin-left: 2%; margin-right: 3%; float: left;position: relative;display: block;}
 article.portifolio div div div#ultrabox section.text{width: 44%; height: 200px; margin-top: 166px; float: left; position: relative; display: block;}
-article.portifolio div div div#ultrabox section.text h2{font-size: 2.3em; text-align: center; letter-spacing: 2px; overflow: hidden; padding-bottom: 2%; color: #fff; float: left; position: relative; display: block;}
-article.portifolio div div div#ultrabox section.text p{font-size: 1.4em; font-style: normal sans-serif; color: #fff; float: left; position: relative; display: block;}
+article.portifolio div div div#ultrabox section.text h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; overflow: hidden; padding-bottom: 2%; color: #fff; float: left; position: relative; display: block;}
+article.portifolio div div div#ultrabox section.text p{font-size: 1.4vw; font-style: normal sans-serif; color: #fff; float: left; position: relative; display: block;}
 
 /*VISÃO*/
 article.vision {width: 100%; height: auto; margin: 0 auto; padding-top: 3%; padding-bottom: 3%; background-image: url("/img/eyes.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 article.vision{width: 100%; height: auto; overflow-x: hidden;}
-article.vision h2{width: 100%; height: auto; font-size: 2.3em; text-align: center; letter-spacing: 2px; font-weight: normal; color:#fff; overflow-x: hidden;}
+article.vision h2{width: 100%; height: auto; font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; color:#fff; overflow-x: hidden;}
 article.vision div{width: 100%; display: flex;}
 article.vision section.dir{width: 50%; display: block; margin: 0 10px;}
 article.vision section.esq{width: 50%; display: block; margin: 0 auto; background-color: rgba(0,0,0,0.4);}
-article.vision h3 {width: 82%; margin: 1% auto; padding-top: 1%; font-size: 1.8em; color: #fff; letter-spacing: 3px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff;text-align: left;}
-article.vision ul.dados li {width: 92%; margin: 1% auto; padding-top: 1%; font-size: 1em; color: #fff; letter-spacing: 1px; overflow: hidden; color:#fff; text-align: left;}
+article.vision h3 {width: 82%; margin: 1% auto; padding-top: 1%; font-size: 1.8vw; color: #fff; letter-spacing: 3px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff;text-align: left;}
+article.vision ul.dados li {width: 92%; margin: 1% auto; padding-top: 1%; font-size: 1vw; color: #fff; letter-spacing: 1px; overflow: hidden; color:#fff; text-align: left;}
 
 /*ENDEREÇO*/
 article.address {width: 100%; height: 100%; padding-bottom: 5%; overflow: hidden; background-color: #333;}
-article.address h2 {font-size: 2.3em; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: normal; padding-bottom: 2%; border-bottom: 1px #ccc solid; overflow: hidden; color:#ef8310;}
-article.address h3 {width: 88%; margin: 3% auto; padding-top: 1%; font-size: 2.8em; letter-spacing: 3px; border-bottom: 1px #ccc solid; overflow: hidden; color:#fff;}
+article.address h2 {font-size: 2.3vw; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: normal; padding-bottom: 2%; border-bottom: 1px #ccc solid; overflow: hidden; color:#ef8310;}
+article.address h3 {width: 88%; margin: 3% auto; padding-top: 1%; font-size: 2.8vw; letter-spacing: 3px; border-bottom: 1px #ccc solid; overflow: hidden; color:#fff;}
 article.address a.delivery {width: 100%; text-decoration: none;}
 article.address img.icon-whz {width: 23%;margin: -3% 25%; padding-left: 10%; color:#fff; padding-top: 10%;}
-article.address p.delivery-contato {width: 75%;margin: 6% 10%;font-size: 1.5em;color:#fff;}
+article.address p.delivery-contato {width: 75%;margin: 6% 10%;font-size: 1.5vw;color:#fff;}
 
 /*--------------------BOX-LHT-----------------------------*/
 article.address ul li div {width: 166%; margin-top: -29%; margin-left: -33%; display: block; margin-bottom: 9%;}
 article.address ul li .min-map{width: 60%;margin-top: 15%;/* padding: 1%; */}
-article.address p {width: 30%;margin: -32px auto; padding-top: 3%; font-size: 1.5em;font-weight: 700;overflow: hidden;color:#fff;text-align: center;padding-bottom: 6%;}
+article.address p {width: 30%;margin: -32px auto; padding-top: 3%; font-size: 1.5vw;font-weight: 700;overflow: hidden;color:#fff;text-align: center;padding-bottom: 6%;}
 article.address ul li.txt-add {width: 33%;margin: 0% 1%; padding-bottom: 10%; border: 1px solid #ccc; float: left;overflow:  hidden;}
 article.address ul li.map-ilustra {width: 26%;/* height: 250px; */background: #464646;margin: 0 2%;/* padding: 33px; */border: 1px solid #ccc; float: left;}
 article.address ul li.map {width: 30%;height: 306px;margin: 0 1%;/* padding: 35px; */border: 1px solid #ccc;float: left;}
@@ -241,19 +242,19 @@ article.address ul li.map {width: 30%;height: 306px;margin: 0 1%;/* padding: 35p
 /*CONTACT*/
 form {width: 100%; height: 100%; margin: 0 auto; padding-top: 5%; background: #222; overflow: hidden; padding-bottom: 7%;}
 fieldset{width: 40%; height: 100%; margin: 0 auto; padding-top: 2%; border: none; overflow: hidden; padding-bottom: 2%;}
-form fieldset h2.txt-form{width: 74%; padding-top: 2px; padding-bottom: 30px; font-size: 2.3em; font-weight: normal; color: #fff; text-align: center; letter-spacing: 2px; text-align: center; margin: 0 14%;}
+form fieldset h2.txt-form{width: 74%; padding-top: 2px; padding-bottom: 30px; font-size: 2.3vw; font-weight: normal; color: #fff; text-align: center; letter-spacing: 2px; text-align: center; margin: 0 14%;}
 form fieldset input {width: 32%; height: 2px; margin: 0 -7% 0 11%; padding-top: 13px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; overflow: hidden; text-align: right; padding-right: 4%;}
-form fieldset input.add-nome{font-size: 1em; text-align: left; background:#555; color: #fff;}
-form fieldset input.add-email{font-size: 1em; text-align: left; background:#555; color: #fff;}
-form fieldset textarea.text-area{width: 77%; height: 70px; margin: 10px 11%; padding-top: 8px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; font-size: 1.3em; text-align: left; background:#555; color: #fff;}
+form fieldset input.add-nome{font-size: 1vw; text-align: left; background:#555; color: #fff;}
+form fieldset input.add-email{font-size: 1vw; text-align: left; background:#555; color: #fff;}
+form fieldset textarea.text-area{width: 77%; height: 70px; margin: 10px 11%; padding-top: 8px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; font-size: 1.3vw; text-align: left; background:#555; color: #fff;}
 input:focus {box-shadow: 2px 1px 10px #ccc;}
 textarea:focus {box-shadow: 1px 1px 10px #ccc;}
-button.add-button{margin: 2% 20%; width: 60%; padding-top: 10px; padding-bottom: 10px; font-size: 1.3em; text-align: center; color: #fff; letter-spacing: 3px; background: #1e677a; border: 0; border-radius: 20px; -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s;}
+button.add-button{margin: 2% 20%; width: 60%; padding-top: 10px; padding-bottom: 10px; font-size: 1.3vw; text-align: center; color: #fff; letter-spacing: 3px; background: #1e677a; border: 0; border-radius: 20px; -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s;}
 button.add-button:hover{background-color: #148699; color: #1e1c1c; box-shadow: 1px 1px 3px #148699;}
 
 /*Footer*/
 footer{width: 100%;/* height: 100%; */margin: 0 auto;padding-top: 2%;padding-bottom: 1%;line-height: 50%;text-align: center;background: #111;display: block;overflow: hidden;}
-footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6em; text-align: center; color: #fff; }
+footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6vw; text-align: center; color: #fff; }
 footer ul li{width: 88%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px; text-align: center; color: #fff;}
-footer ul li p{font-size: 1em; text-align: center; color: #fff;}
+footer ul li p{font-size: 1vw; text-align: center; color: #fff;}
 }
