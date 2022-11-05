@@ -36,6 +36,9 @@ article.intro ul.servico li a {width: 326px; margin: 0px auto 5%; /*! text-align
 article.intro ul.servico li a img.icon-serv{width: 40px; margin: 0px auto 2%; text-align: left; display: block;}
 article.intro ul.servico li a h3.icon-title{width: 100%; height: 36px; margin: 0 auto; font-style: normal; font-size: 1.5em; font-weight: 400; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: auto;}
 
+
+
+
 /*Display*/
 .box-banner{width: 100%; height: 100px; margin: 0 auto 1%; display: block;}
 #bubblebox{width: 100%; height: auto;margin: 0 auto;text-align: center;overflow: hidden;}
@@ -143,7 +146,7 @@ label{margin: 0 500px 0 0; font-size: 26px; line-height: 70px; display: none;}
 #toogle{display: none;}
 
 .menu a {cursor: pointer; text-decoration: none; color: #ccc; margin: 0 40px;font-size: 1.4vw; -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */ transition: color 1s; /* For modern browsers */}
-.menu a:link {font-weight: 700;cursor: pointer;text-decoration: none;margin: 0 34px;color: #ccc;font-size: 1.4vw;}
+.menu a:link {font-weight: 700;cursor: pointer;text-decoration: none;margin: 0 40px;color: #ccc;font-size: 1.4vw;}
 .menu a:hover {font-weight: 700; text-decoration: none; color: #08b2ce; margin: 0 40px; border-bottom: 3px #08b2ce solid;font-size: 1.4vw;}
 
 /*HOME*/
@@ -180,17 +183,29 @@ article {width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weigh
 article img{width: 20%; margin: 0 auto; padding-top: 0%; display: block;}
  
 /*Serviço*/
-article.service{width: 100%;height: auto;margin: 0 auto;padding-top: 20%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
+article.service{width: 100%;height: auto;margin: 0 auto;padding-top: 8%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
 article.service div h2{font-size: 2.3vw;text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
 article.service div ul.servico h3.icon-title{font-size: 3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden;padding-bottom: 2%;color: #fff;text-decoration: none;padding-top: 10%;/*! left: 31px; */}
 article.service div ul.servico{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: flex;}
 article.service div ul.servico li{width: 100%; margin: 0px auto 5%; display: block; text-decoration: none;}
 article.service div ul.servico li h3{width: 100%; margin: 0px auto 5%; display: block; text-align: center; text-decoration: none;}
 article.service div ul.servico li.bl-texto{width: 100%; margin: 0 auto; padding-top: 1%; font-size: 1.6vw; font-weight: normal; text-align: center; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
-article.service div ul.servico li.bl-texto p.text-descricao{width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article.service div ul.servico li.bl-texto p.text-descricao{width: 82%; margin: 0 auto; padding-top: 1%;font-family: Arial, Helvetica, sans-serif; font-size: 1vw; text-align: left; color: #fff; /*! letter-spacing: -2px; */ padding-bottom: 2%;line-height: 30px; }
 article.service div ul.servico li img.icon-serv{width: 30px; margin: 0px auto 30px; text-align: left; display: block;}
 article.service div ul.servico li img.person{width: 70%; margin: 0px auto 30px; text-align: left; display: block;}
 
+/*Itens*/
+article.itens{width: 100%; height: auto; margin: 0 auto; padding-top: 20%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
+article.itens div h2{font-size: 2.3vw; text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
+article.itens div ul.itens{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: flex;}
+article.itens div ul.itens li a{width: 100%; margin: 0px auto 5%; display: block; text-decoration: none;}
+article.itens div ul.itens li a h3.icon-title{width: 100%; margin: 0px auto 5%; display: block; font-size: 2.7vw; color: #fff; text-align: center; text-decoration: none;}
+article.itens div ul.itens li a p.txt-descricao{width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article.itens div ul.itens li img.icon-serv{width: 30px; margin: 0px auto 30px; text-align: left; display: block;}
+article.itens div ul.itens li img.person{width: 70%; margin: 0px auto 30px; text-align: left; display: block;}
+
+#div-diagonal00{width: 2000px; height: 500px; background:rgb(253, 253, 253); top: 20; -webkit-transform: skew(20deg); -ms-transform: skew(20deg); transform: skew(50deg);right: 530px;position: absolute;}
+#div-diagonal01{width: 2000px; height: 500px; background:rgb(255, 255, 255); top: 311; -webkit-transform: skew(-20deg); -ms-transform: skew(-20deg); transform: skew(-50deg);position: absolute;right: -1190px;}
 
 
 /*PORTIFOLIO*/
