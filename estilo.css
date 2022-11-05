@@ -1,0 +1,279 @@
+* {margin: 0 auto; padding: 0 auto; list-style: none;}
+body{width: 100%; margin: 0 auto; background-color: #2a2a2e; font-family: "Museo Sans","system-ui","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue"; font-size: 50px; letter-spacing: 1px; color: #000; overflow-x: hidden}
+
+
+/*PORTRAIT - MOBILE(Iphone 320x468) RESOLUÇÃO PORTRAIT - 300px a 900px */
+@media only screen and (max-width: 900px) {
+body{width: 100%; margin: 0 auto; background-color: #2a2a2e; font-size: 50px; color: #222; overflow-x: hidden}
+header{width: 100%; height: 100%; margin: 0 auto; background: #fff; overflow-x: hidden; }
+header picture img{width: 28%; margin: 1% 36%; padding-left: 2%; padding-bottom: 36%; float: left; display: block; text-align: center; z-index: 0; position: absolute; clear: both;}
+header nav label{width: 60%; margin: 7% 3%; font-size: 1.5em; color: #0c0c0c; cursor: pointer; float: left; display: block; z-index: 3; position: relative; clear: both;}
+#toogle{display:none;}
+header nav label ul{margin: 0 auto;}
+.menu{width: 100%; margin: 0 0 0 -40px; background-color: #fff; display: none; position: relative; clear: both; opacity: 0.5; transition: all .1s linear;}
+.menu li a{width: 100%; font-size: 0.92em; font-weight: bold; cursor: pointer; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both;}
+.menu a:link {width: 100%; font-size: 1.2em; font-weight: bold; cursor: pointer; text-decoration: none; color: #fff; text-align: center; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both;}
+.menu a:hover {width: 100%; margin: 0 auto; font-size: 1.2em; font-weight: bold; cursor: pointer; text-decoration: none; color: #fff; background-color: #ccc; text-align: center; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both;}
+.menu a:visited{text-decoration: none; display: none; }
+#toogle:checked + .menu{display: block; }
+.menu a:link, a:visited {font-weight: bold; cursor: pointer; text-decoration: none; color: #000;}
+.menu a:hover {font-weight: bold; text-decoration: none; color: #fff; background-color: #3c3b3c;}
+
+/*HOME*/
+article.home{width: 100%; margin: 0 auto; padding: 0 auto; display: block; float: left; overflow-x: hidden;}
+article.home img{width: 100%; margin: 0 auto; display: block; float: left; position: absolute; z-index: -1; overflow-x: hidden;}					
+article.home section{margin-top: 420px; margin-left: 280px; display: block; float: left; overflow-x: hidden;}
+article.home section h2{margin: 0; margin-left: 10px; padding-top: 38px; font-size: 2em; font-weight: normal; text-align: center; overflow-x: hidden;}
+
+/*Intro*/
+article.intro{width: 100%; height: auto; margin: -24px auto 30px; padding-top: 24%; padding-bottom: 3%; background-color: #2a2a2e; overflow: hidden;}
+.telefone{width: 50%; height: 30px; margin: 0 auto;}
+.bloco{width: 50%; height: 30px; margin: -24px auto 30px; padding-top: 24%; padding-bottom: 3%; background-color: #2a2a2e; overflow: hidden;}
+
+article.intro h2{font-style: normal; font-size: 2.3em; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-top: 8%; padding-bottom: 7%; color: #fff; text-decoration: none;}
+article.intro ul.servico{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: block;}
+article.intro ul.servico li a {width: 326px; margin: 0px auto 5%; /*! text-align: left; */ display: block; text-decoration: none;}
+article.intro ul.servico li a img.icon-serv{width: 40px; margin: 0px auto 2%; text-align: left; display: block;}
+article.intro ul.servico li a h3.icon-title{width: 100%; height: 36px; margin: 0 auto; font-style: normal; font-size: 1.5em; font-weight: 400; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: auto;}
+
+
+
+
+/*Display*/
+.box-banner{width: 100%; height: 100px; margin: 0 auto 1%; display: block;}
+#bubblebox{width: 100%; height: auto;margin: 0 auto;text-align: center;overflow: hidden;}
+#bubbles{width: 100%; margin: 36% auto; text-align:center; overflow: hidden; position: relative; display: block; overflow-x: hidden; }
+#bubbles > div{display:inline-block; width:10px; height:10px; overflow: hidden; z-index: 1000; clear: both; margin: 2% 10px 30% 10px; background:rgba(0, 0, 0, 0.2); text-align:center; border:2px solid rgba(0, 0, 0, 0.2); border-radius:100%; font-size:17px; text-decoration:none; transition: background 0.3s linear 0s; cursor:pointer; overflow-x: hidden;}
+#bubblecontent {margin: 0 auto; margin-top: -116%;transition:opacity 0.3s linear 0s;font-family: Arial;overflow-x: hidden;}
+#bubblecontent > img { width: 100%; margin: 0 auto; margin-top: -425px; transition:opacity 0.3s linear 0s; font-family: Arial; z-index: 1000; clear: both; overflow-x: hidden;}
+#bubblecontent .img img {width: 120%; margin-left: -50px; overflow-x: hidden;}
+
+/*TITLE, SUBTITLE AND IMG*/
+article h2{width: 100%; margin: 0 auto; padding-top: 13%; font-style: normal; font-size: 2.3em; font-weight: normal; text-align: center; letter-spacing: 2px; overflow: hidden; margin-bottom:-2%;text-align: center; }
+article h3{width: 100%; margin: 0 auto; padding-top: 6%; font-size: 1.3em; color: #16171A; overflow: hidden;}
+article p{width: 80%; padding-top: 2%; font-size: 0.8em; text-align: center; line-height: 18px;/* overflow: hidden; */color: #fff;}
+article img{width: 90%; margin: 0 auto; padding-top: 6%; display: block;}
+ 
+/*Service*/
+article.service{width: 100%; height: auto; margin: -24px auto 30px; padding-top: 24%; padding-bottom: 3%; background-color: #2a2a2e; overflow: hidden;}
+article.service h2{font-style: normal; font-size: 2.3em; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-top: 8%; padding-bottom: 7%; color: #fff; text-decoration: none;}
+article.service ul.servico{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: block;}
+article.service ul.servico li a {width: 326px; margin: 0px auto 5%; /*! text-align: left; */ display: block; text-decoration: none;}
+article.service ul.servico li a img.icon-serv{width: 40px; margin: 0px auto 2%; text-align: left; display: block;}
+article.service ul.servico li a h3.icon-title{width: 100%; height: 36px; margin: 0 auto; font-style: normal; font-size: 1.5em; font-weight: 400; color: #fff; letter-spacing: 2px; text-align: center; text-decoration: none; overflow: hidden; line-height: auto;}
+
+/*portifolio*/
+article.portifolio{width: 100%; height: auto;margin: 0 auto; padding-bottom: 6%; background: #fff;/* overflow: hidden; */ overflow-x: hidden;}
+article.portifolio section.list-burger{width: 100%; height: 100%; margin:0 -3%; list-style: none;}
+article.portifolio ul{width: 100%; margin: 0 0 0 -11%; list-style: none; float: right;/*! text-align: center; */}
+article.portifolio .min{width: 100%; margin: 0 auto; overflow: hidden; display: block; padding-top: 0px; background: #fff;}
+article.portifolio .min ul li a img div.leg-p{width: 100%; margin: 0 auto; overflow: hidden; display: block; padding-top: 0px; background: #fff; padding-bottom: 14%;}
+article.portifolio .min ul li a img div.leg-p p.txt-p {width: 100%; margin: 0 auto; overflow: hidden; display: block; padding-top: 0px; background: #fff; padding-bottom: 14%;}
+article.portifolio .lbox{visibility: hidden; opacity: 0;}
+article.portifolio .lbox:target{visibility: visible; opacity: 1; width: 100%; height: 100%; top:0; left:0; background: rgba(10,10,10,.7); position: fixed;}
+article.portifolio .box_img{width: 100%;margin: 0 auto;height: 100%;z-index: 50;}
+article.portifolio .btn{color: #fff; font-family: arial; text-decoration:none; position:absolute; width:50px; height:50px; font-size: 40px; text-align: center;}
+article.portifolio #prev{left: 2%;top: 45%;}
+article.portifolio #next{right: 2%; top: 45%;}
+article.portifolio #close{top:0;right: 1%;}
+article.portifolio .box_img img{opacity: 0;}
+article.portifolio ul li{width: 90%;height: 100%;margin: 5% 0 1% 0%; background-color:#f7f7f7; border: 1px solid #ccc;border-radius: 1px;display: block;text-decoration: none;overflow:  hidden;padding-top: -1%;/* padding-bottom: 50%; *//* padding-left: 5%; *//* padding-right: 5%; */}
+article.portifolio ul li{width: 90%; height: auto; margin: 8% auto;/*! background-color:#f7f7f7; */ /*! border: 1px solid #ccc; */border-radius: 3px;display: block;text-decoration: none;overflow:  hidden;padding-top: -1%;/* padding-bottom: 50%; *//* padding-left: 5%; *//* padding-right: 5%; */}
+article.portifolio h2.btxt{width: 90%;margin: 0 5%; padding-top: 3%; font-style: normal; font-size: 2.3em; font-weight: normal; text-align: center; letter-spacing: 2px; border-bottom: 1px #ccc solid;overflow: hidden; color:#ccc;}
+article.portifolio ul li a{text-decoration: none; padding-bottom: 30%;}
+article.portifolio ul li a p{width: 100%; margin-top: 2%; padding-top: 5%; padding-right: 6%; text-align: center; font-size: 1.5em; color: #333; font-weight: 600; text-decoration: none; padding-bottom: 5%; margin-bottom: 3%;}
+article.portifolio div div div#ultrabox{width: 90%;height: 100%;margin: 0 5%;background: rgba(10,10,10,.9);position: absolute;display: block;/* overflow: hidden; */}
+article.portifolio div div div#ultrabox section.picture{width: 100%;/* height: 100%; *//* margin-top: 5%; *//* margin-left: 35%; *//* margin-right: -34%; */float: left;position: relative;display: block;}
+article.portifolio div div div#ultrabox section.picture img.imgBurger{width: 78%;margin-top: 20%;display: block;margin-bottom: 15%;margin-left: 12%;}
+article.portifolio div div div#ultrabox section.text{width: 100%;/* height: 200px; */margin-top: -20px;float: left;position: relative;display: block;/* margin-left: 6px; */}
+article.portifolio div div div#ultrabox section.text h2{margin-top: -6%;font-family: Arial, helvetica, trebuchet;font-style: normal sans-serif; text-align: center;color: #fff;float: left;position: relative;display: block;padding-bottom: 3%;}
+article.portifolio div div div#ultrabox section.text p{font-size: 1.6em;font-style: normal sans-serif;/* font-weight: 700; */color: #fff;/* float: left; */position: relative; display: block;/* font-family: tahoma; */margin-left: 0 auto;text-align: center;margin-left: 1%;margin-top: 12%;}
+.logoIcon{width: 25%;margin-top: 5%;display: block;}
+
+/*VISÃO*/
+article.vision {width: 100%; height: auto; margin: 0 auto; padding-top: 3%; padding-bottom: 3%; background-image: url("/img/eyes.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+article.vision{width: 100%; height: auto; overflow-x: hidden;}
+article.vision h2.nvisao{font-style: normal; font-size: 2.3em; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: normal; padding-top: 5%; padding-bottom: 4%; color: #fff; text-decoration: none;}
+article.vision h3{width: 100%; margin: 1% auto; padding-top: 1%; font-style: normal; font-size: 1.3em; color: #fff; letter-spacing: 3px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff; text-align: left;}
+article.vision div{width: 100%; display: block;}
+article.vision section.dir{width: 94%; display: block; margin: 50px 2%;}
+article.vision div section.dir p.txt-vis{width: 100%; padding-top: 2%; font-size: 0.9em; text-align: left; line-height: 21px;/* overflow: hidden; */color: #fff; padding-right: 24%;}
+article.vision section.esq{width: 94%; display: block; margin: 50px 2%; }
+article.vision section.esq h3 {width: 100%; margin: 1% auto; padding-top: 1%; font-style: normal; font-size: 1.3em; color: #fff; letter-spacing: 3px; border-bottom: 1px #818181 solid; overflow: hidden; color: #fff; text-align: left;}
+article.vision section.esq ul.dados {width: 100%; margin: 0 auto; padding-top: 1%; font-style: normal; font-size: 1em; color: #fff; letter-spacing: 3px; overflow: hidden; color: #fff; text-align: right;}
+article.vision section.esq ul.dados li {width: 100%; margin: 1% 7px 0 -4%; padding-top: 1%; font-style: normal; font-size: 1em; color: #fff; letter-spacing: 2px; overflow: hidden; color: #fff; text-align: left;}
+
+/*CONTACT*/
+form {width: 100%; height: 100%; margin: 0 auto; padding-top: 5%; background: #222; overflow: hidden; padding-bottom: 7%;}
+fieldset{width: 40%; height: 100%; margin: 0 auto; padding-top: 2%; border: 1px #353535 solid; overflow: hidden; padding-bottom: 2%;}
+form {width: 100%; height: 100%; margin: 0 auto; padding-top: 5%; background: #222; overflow: hidden; padding-bottom: 7%;}
+fieldset{width: 90%; height: 100%; margin: 0 auto; padding-top: 2%; border: 1px #353535 solid; overflow: hidden; padding-bottom: 2%;}
+form fieldset h2.txt-form{width: 90%; padding-top: 2px; padding-bottom: 30px; font-size: 2.3em; color: #fff; text-align: center; font-weight: normal; letter-spacing: 1px; text-align: center; margin: 0 5%;}
+form fieldset input {width: 32%; height: 2px; margin: 0 -6% 0 11%; padding-top: 13px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; overflow: hidden; text-align: right; padding-right: 4%;}
+form fieldset input.add-nome{font-size: 1em; text-align: left; background:#555; color: #fff;}
+form fieldset input.add-email{font-size: 1em; text-align: left; background:#555; color: #fff;}
+form fieldset textarea.text-area{width: 77%; height: 70px; margin: 10px 11%; padding-top: 8px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; font-size: 1.3em; text-align: left; background:#555; color: #fff;}
+input:focus {box-shadow: 2px 1px 10px #ccc;}
+textarea:focus {box-shadow: 1px 1px 10px #ccc;}
+button.add-button{margin: 2% 20%; width: 60%; padding-top: 10px; padding-bottom: 10px; font-size: 1.3em; text-align: center; color: #fff; letter-spacing: 3px; background: #1e677a; border: 0; border-radius: 20px; -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s;}
+button.add-button:hover{background-color: #148699; color: #1e1c1c; box-shadow: 1px 1px 3px #148699;}
+
+/*Footer*/
+footer{width: 100%;/* height: 100%; */margin: 0 auto;padding-top: 2%;padding-bottom: 1%;line-height: 50%;text-align: center;background: #111;display: block;overflow: hidden;}
+footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6em; text-align: center; color: #fff; }
+footer ul li{width: 88%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px; text-align: center; color: #fff;}
+footer ul li p{font-size: 1em; text-align: center; color: #fff;}
+}
+
+
+
+
+
+
+
+/*---------------------DESKTOP - RESOLUÇÃO - 901x a 1366px---------------------*/
+@media only screen and (min-width: 901px) {	
+body{width: 100%; margin: 0 auto; background-color: #2a2a2e; font-family: "Museo Sans","system-ui","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue"; letter-spacing: 1px; font-size: 50px; color: #ccc; overflow-x: hidden}
+
+header{width: 100%; height: 30%; margin: 0 auto; overflow: hidden;} 
+header img{width: 20%;padding: 1% 10% 1% 8%;float: left;display: block;}
+header nav{width: 100%;margin-top: 4%;margin-left: 6%;float: left;display: block;margin-bottom: 5%;font-size: 1.4vw;}
+header nav ul li{margin: 0 auto; display: inline-block;}
+header nav ul li a{margin: 0 auto; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; font-size: .9vw; text-align:center;}
+
+label{margin: 0 500px 0 0; font-size: 26px; line-height: 70px; display: none;}
+label{margin: 0 500px 0 0; font-size: 26px; line-height: 70px; display: none;}
+#toogle{display: none;}
+
+.menu a {cursor: pointer; text-decoration: none; color: #ccc; margin: 0 40px;font-size: 1.4vw; -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */ transition: color 1s; /* For modern browsers */}
+.menu a:link {font-weight: 700;cursor: pointer;text-decoration: none;margin: 0 40px;color: #ccc;font-size: 1.4vw;}
+.menu a:hover {font-weight: 700; text-decoration: none; color: #08b2ce; margin: 0 40px; border-bottom: 3px #08b2ce solid;font-size: 1.4vw;}
+
+/*HOME*/
+article.home{width: 100%; margin: 0 auto; padding: 0 auto; display: block; float: left; overflow-x: hidden;}
+article.home img{width: 100%; margin: 0 auto; display: block; float: left; position: absolute; z-index: -1; overflow-x: hidden;}					
+article.home section{margin-top: 420px; margin-left: 280px; display: block; float: left; overflow-x: hidden;}
+article.home section h1{margin: 0; margin-left: 10px; padding-top: 38px; font-size: 2vw; text-align: center; overflow-x: hidden;}
+
+/*Intro*/
+article.intro{width: 100%; margin: 0 auto; display: block; float: left; overflow: hidden;}
+article.intro div.telefone{width: 100%; margin: 0 auto; display: block; float: left; overflow: hidden;}
+article.intro div.telefone img.cel{width: 5%;margin: 0% 68%;/* FONT-WEIGHT: 500; */float: left;overflow: hidden;/* bottom: 39px; */}
+article.intro div.telefone h2.number{width: 178%; margin: -4% -3%; display: block; float: left; overflow: hidden; font-size: 2.8vw; line-height: 2vw;color: #08b2ce;font-family: 'Barlow Condensed', sans-serif;}
+article.intro div.bloco{width: 100%; margin: 0 auto; padding: 0 auto; display: block; float: left; overflow-x: hidden;}
+article.intro div.bloco img.logo{width: 28%;margin: 0 auto;padding: 0 auto;display: block;float: center;overflow-x: hidden;}
+
+
+
+/*Display*/
+.box-banner{width: 100%; height: 300px; margin: 0 auto 3%; display: block;}
+#display{width: 100%; height: 100%; margin: 0 auto; display: block;}
+#display #bubblebox{width: 100%; margin: 0 auto; display: block;}
+#bubblebox{width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden;}
+#bubbles{width: auto;margin: 36% auto;margin-bottom: 49%;text-align:center;overflow: hidden;position: relative;display: block;overflow-x: hidden;}
+#bubbles > div{display:inline-block; width: 10px; height: 10px; overflow: hidden; z-index: 1000; clear: both; margin: 0 10px 0 10px; background:rgba(0, 0, 0, 0.2); text-align:center; border:2px solid rgba(0, 0, 0, 0.2); border-radius:100%; font-size:17px; text-decoration:none; transition: background 0.3s linear 0s; cursor:pointer; overflow-x: hidden;}
+#bubblecontent {margin: 0 auto; margin-top: -88%; transition:opacity 0.3s linear 0s; overflow-x: hidden;}
+#bubblecontent > img {width: 100%; margin: 0 auto; margin-top: -425px; transition:opacity 0.3s linear 0s; z-index: 1000; clear: both; overflow-x: hidden;}
+#bubblecontent .img img {width: 110%; margin-left: -100px; overflow-x: hidden;}
+
+/*TITLE, SUBTITLE AND IMG*/
+article h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%;}
+article h3{font-size: 1vw; color: #16171A; text-align: center; letter-spacing: -2px; overflow: hidden; padding-bottom: 2%;}
+article {width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article img{width: 20%; margin: 0 auto; padding-top: 0%; display: block;}
+ 
+/*Serviço*/
+article.service{width: 100%;height: auto;margin: 0 auto;padding-top: 8%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
+article.service div h2{font-size: 2.3vw;text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
+article.service div ul.servico h3.icon-title{font-size: 3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden;padding-bottom: 2%;color: #fff;text-decoration: none;padding-top: 10%;/*! left: 31px; */}
+article.service div ul.servico{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: flex;}
+article.service div ul.servico li{width: 100%; margin: 0px auto 5%; display: block; text-decoration: none;}
+article.service div ul.servico li h3{width: 100%; margin: 0px auto 5%; display: block; text-align: center; text-decoration: none;}
+article.service div ul.servico li.bl-texto{width: 100%; margin: 0 auto; padding-top: 1%; font-size: 1.6vw; font-weight: normal; text-align: center; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article.service div ul.servico li.bl-texto p.text-descricao{width: 82%; margin: 0 auto; padding-top: 1%;font-family: Arial, Helvetica, sans-serif; font-size: 1vw; text-align: left; color: #fff; /*! letter-spacing: -2px; */ padding-bottom: 2%;line-height: 30px; }
+article.service div ul.servico li img.icon-serv{width: 30px; margin: 0px auto 30px; text-align: left; display: block;}
+article.service div ul.servico li img.person{width: 70%; margin: 0px auto 30px; text-align: left; display: block;}
+
+/*Itens*/
+article.itens{width: 100%; height: auto; margin: 0 auto; padding-top: 20%;padding-bottom: 3%;background-color: #2a2a2e;overflow: hidden;}
+article.itens div h2{font-size: 2.3vw; text-align: center;letter-spacing: 2px;font-weight: normal;overflow: hidden;padding-bottom: 7%;color: #fff;text-decoration: none;}
+article.itens div ul.itens{width: 100%; margin: 0px auto; padding-left: 4px; text-align: left; display: flex;}
+article.itens div ul.itens li a{width: 100%; margin: 0px auto 5%; display: block; text-decoration: none;}
+article.itens div ul.itens li a h3.icon-title{width: 100%; margin: 0px auto 5%; display: block; font-size: 2.7vw; color: #fff; text-align: center; text-decoration: none;}
+article.itens div ul.itens li a p.txt-descricao{width: 82%; margin: 0 auto; padding-top: 1%; font-size: 1vw; font-weight: normal; text-align: left; color: #fff; /*! letter-spacing: -2px; */ overflow: hidden; padding-bottom: 2%;line-height: 30px;}
+article.itens div ul.itens li img.icon-serv{width: 30px; margin: 0px auto 30px; text-align: left; display: block;}
+article.itens div ul.itens li img.person{width: 70%; margin: 0px auto 30px; text-align: left; display: block;}
+
+#div-diagonal00{width: 2000px; height: 500px; background:rgb(253, 253, 253); top: 20; -webkit-transform: skew(20deg); -ms-transform: skew(20deg); transform: skew(50deg);right: 530px;position: absolute;}
+#div-diagonal01{width: 2000px; height: 500px; background:rgb(255, 255, 255); top: 311; -webkit-transform: skew(-20deg); -ms-transform: skew(-20deg); transform: skew(-50deg);position: absolute;right: -1190px;}
+
+
+/*PORTIFOLIO*/
+article.portifolio{width: 100%; height: 100%; margin: 0 auto; padding-bottom: 5%; background: #ccc; overflow: hidden;}	
+article.portifolio ul{width: 100%; height: 60%; margin: 0 -3% 5%; list-style: none; display: flex;}
+article.portifolio .min{width: 100%; margin-top: 0%; height: auto; border-radius: 8px; display: block;}
+article.portifolio .lbox{visibility: hidden; opacity: 0;}
+article.portifolio .lbox:target{visibility: visible; opacity: 1; width: 100%; height: 100%; top:0; left:0; background: rgba(10,10,10,.7); position: fixed;}
+article.portifolio .box_img{width: 1000px; margin: 150px auto;}
+article.portifolio .btn{color: #fff; text-decoration:none; position:absolute; width:50px; height:50px; font-size: 40px; text-align: center;}
+article.portifolio #prev{left: 5%; top: 45%;}
+article.portifolio #next{right: 5%; top: 45%;}
+article.portifolio #close{top:0; right: 2%;}
+article.portifolio .box_img img{opacity: 0;}
+article.portifolio .lbox:target .box_img img{opacity: 1; transition: opacity .4s linear;}
+article.portifolio ul li{width:20%; height: 100px; margin: 0 0 2% 3%; display:block; text-decoration: none;}
+article.portifolio h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; overflow: hidden; padding-bottom: 2%; overflow: hidden; color: #636363; padding-top: 5%;}
+article.portifolio ul li a{text-decoration: none; padding-bottom: 30%;}
+article.portifolio ul li a img {width: 114%; height: 33%; margin: 0 0 2% 6%; border: 2px solid #bbbabc; border-radius: 2px;display: block; text-decoration: none; text-decoration: none; /*! padding-bottom: 7%; */display: block; box-shadow: 3px 4px 10px rgba(0,0,0,0.2);}
+article.portifolio ul li a p{width: 85%; margin-top: 6%; padding-top: 10%; padding-bottom: 10%; text-align: center; font-size: 1vw; color: rgba(0,0,0,0); font-weight: 600; text-decoration: none; letter-spacing: 1px;}
+article.portifolio div div div#ultrabox{width: 90%; height: 530px; margin-top: -90px;padding-top: 34px; background: rgba(10,10,10,.9); position: relative; display: block;}
+article.portifolio div div div#ultrabox section.picture{width: 50%; height: 200px; margin-top: 100px; margin-left: 2%; margin-right: 3%; float: left;position: relative;display: block;}
+article.portifolio div div div#ultrabox section.text{width: 44%; height: 200px; margin-top: 166px; float: left; position: relative; display: block;}
+article.portifolio div div div#ultrabox section.text h2{font-size: 2.3vw; text-align: center; letter-spacing: 2px; overflow: hidden; padding-bottom: 2%; color: #fff; float: left; position: relative; display: block;}
+article.portifolio div div div#ultrabox section.text p{font-size: 1.4vw; font-style: normal sans-serif; color: #fff; float: left; position: relative; display: block;}
+
+/*VISÃO*/
+article.vision {width: 100%; height: auto; margin: 0 auto; padding-top: 3%; padding-bottom: 3%; background-image: url("/img/eyes.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+article.vision{width: 100%; height: auto; overflow-x: hidden;}
+article.vision h2{width: 100%; height: auto; font-size: 2.3vw; text-align: center; letter-spacing: 2px; font-weight: normal; color:#fff; overflow-x: hidden;}
+article.vision div{width: 100%; display: flex;}
+article.vision section.dir{width: 50%; display: block; margin: 0 10px;}
+article.vision section.esq{width: 50%; display: block; margin: 0 auto; background-color: rgba(0,0,0,0.4);}
+article.vision h3 {width: 82%; margin: 1% auto; padding-top: 1%; font-size: 1.8vw; color: #fff; letter-spacing: 3px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff;text-align: left;}
+article.vision ul.dados li {width: 92%; margin: 1% auto; padding-top: 1%; font-size: 1vw; color: #fff; letter-spacing: 1px; overflow: hidden; color:#fff; text-align: left;}
+
+/*ENDEREÇO*/
+article.address {width: 100%; height: 100%; padding-bottom: 5%; overflow: hidden; background-color: #333;}
+article.address h2 {font-size: 2.3vw; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: normal; padding-bottom: 2%; border-bottom: 1px #ccc solid; overflow: hidden; color:#ef8310;}
+article.address h3 {width: 88%; margin: 3% auto; padding-top: 1%; font-size: 2.8vw; letter-spacing: 3px; border-bottom: 1px #ccc solid; overflow: hidden; color:#fff;}
+article.address a.delivery {width: 100%; text-decoration: none;}
+article.address img.icon-whz {width: 23%;margin: -3% 25%; padding-left: 10%; color:#fff; padding-top: 10%;}
+article.address p.delivery-contato {width: 75%;margin: 6% 10%;font-size: 1.5vw;color:#fff;}
+
+/*--------------------BOX-LHT-----------------------------*/
+article.address ul li div {width: 166%; margin-top: -29%; margin-left: -33%; display: block; margin-bottom: 9%;}
+article.address ul li .min-map{width: 60%;margin-top: 15%;/* padding: 1%; */}
+article.address p {width: 30%;margin: -32px auto; padding-top: 3%; font-size: 1.5vw;font-weight: 700;overflow: hidden;color:#fff;text-align: center;padding-bottom: 6%;}
+article.address ul li.txt-add {width: 33%;margin: 0% 1%; padding-bottom: 10%; border: 1px solid #ccc; float: left;overflow:  hidden;}
+article.address ul li.map-ilustra {width: 26%;/* height: 250px; */background: #464646;margin: 0 2%;/* padding: 33px; */border: 1px solid #ccc; float: left;}
+article.address ul li.map {width: 30%;height: 306px;margin: 0 1%;/* padding: 35px; */border: 1px solid #ccc;float: left;}
+
+/*CONTACT*/
+form {width: 100%; height: 100%; margin: 0 auto; padding-top: 5%; background: #222; overflow: hidden; padding-bottom: 7%;}
+fieldset{width: 40%; height: 100%; margin: 0 auto; padding-top: 2%; border: none; overflow: hidden; padding-bottom: 2%;}
+form fieldset h2.txt-form{width: 74%; padding-top: 2px; padding-bottom: 30px; font-size: 2.3vw; font-weight: normal; color: #fff; text-align: center; letter-spacing: 2px; text-align: center; margin: 0 14%;}
+form fieldset input {width: 34%; height: 2px; margin: 0 -11% 0 11%; padding-top: 13px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; overflow: hidden; text-align: right; padding-right: 4%;}
+form fieldset input.add-nome{font-size: 1vw; text-align: left; background:#555; color: #fff;}
+form fieldset input.add-email{font-size: 1vw; text-align: left; background:#555; color: #fff;}
+form fieldset textarea.text-area{width: 77%; height: 70px; margin: 10px 11%; padding-top: 8px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; font-size: 1.3vw; text-align: left; background:#555; color: #fff;}
+input:focus {box-shadow: 2px 1px 10px #ccc;}
+textarea:focus {box-shadow: 1px 1px 10px #ccc;}
+button.add-button{margin: 2% 20%; width: 60%; padding-top: 10px; padding-bottom: 10px; font-size: 1.3vw; text-align: center; color: #fff; letter-spacing: 3px; background: #1e677a; border: 0; border-radius: 20px; -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s;}
+button.add-button:hover{background-color: #148699; color: #1e1c1c; box-shadow: 1px 1px 3px #148699;}
+
+/*Footer*/
+footer{width: 100%;/* height: 100%; */margin: 0 auto;padding-top: 2%;padding-bottom: 1%;line-height: 50%;text-align: center;background: #111;display: block;overflow: hidden;}
+footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6vw; text-align: center; color: #fff; }
+footer ul li{width: 88%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px; text-align: center; color: #fff;}
+footer ul li p{font-size: 1vw; text-align: center; color: #fff;}
+}
